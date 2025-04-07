@@ -30,6 +30,6 @@ for i in range(num):
         print("1")
       else:
         print(str (lastlist[i-1] +lastlist[i]) +" ")
-      
-        
+  print("\n")
+     
       
