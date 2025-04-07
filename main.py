@@ -15,7 +15,7 @@
 
 1 2 1
 
-1 2 3 1
+1 3 3 1
 """
 lastlist = {}
 num = int(input())
