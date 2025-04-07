@@ -22,14 +22,18 @@ num = input()
 for i in range(num):
   if i == 0:
     print(1)
-    lastlist = [1,]
+    lastlist =  {0:1,}
+  nowlist = {}
   for j in range (i+1):
       if i == 0 or :
+        r = 1
         print("1 ")
       elif i + 1 == j:
+        r = 1
         print("1")
       else:
-        print(str (lastlist[i-1] +lastlist[i]) +" ")
+        r = lastlist[i-1] +lastlist[i]
+        print(str (r) +" ")
+      nowlist[j] = r 
   print("\n")
-     
-      
+   
