@@ -18,22 +18,23 @@
 1 2 3 1
 """
 lastlist = {}
-num = input()
+num = int(input())
 for i in range(num):
   if i == 0:
-    print(1)
+    print(1,end="")
     lastlist =  {0:1,}
-  nowlist = {}
-  for j in range (i+1):
-      if i == 0 or :
-        r = 1
-        print("1 ")
-      elif i + 1 == j:
-        r = 1
-        print("1")
-      else:
-        r = lastlist[i-1] +lastlist[i]
-        print(str (r) +" ")
-      nowlist[j] = r 
+  else:
+    nowlist = {}
+    for j in range (i+1):
+        if j == 0  :
+            r = 1
+            print("1 ",end="")
+        elif i == j:
+            r = 1
+            print("1",end="")
+        else:
+            r = lastlist[j-1] +lastlist[j]
+            print(str (r) +" ",end="")
+        nowlist[j] = r 
+    lastlist = nowlist
   print("\n")
-   
